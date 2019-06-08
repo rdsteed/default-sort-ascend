@@ -3,7 +3,7 @@ Contributors: rdsteed
 Donate link: 
 Tags: reverse, sort, ascending, chronological, posts, order
 Requires at least: 2.0
-Tested up to: 4.3
+Tested up to: 5.2.1
 Stable tag: trunk
 
 This plugin changes the default order of queries generating posts from descending to ascending.
@@ -32,4 +32,5 @@ Download Default-Sort-Ascend.
 Upload 'default_sort_ascend.php' to the '/wp-content/plugins/' directory.
 Activate from your Plugins page.
 
-
+When the plug-in is activated, it the default order becomes ascending.
+When the plug-in is deactivated, the default sort order reverts to the default, descending.
