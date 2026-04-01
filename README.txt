@@ -1,10 +1,13 @@
 === default-sort-ascend ===
 Contributors: rdsteed
 Donate link: 
-Tags: reverse, sort, ascending, chronological, posts, order
+Tags: reverse, sort, ascending, chronological, order
 Requires at least: 2.0
 Tested up to: 6.9.4
 Stable tag: trunk
+License: GPLv2 or later, MIT
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+
 
 This plugin changes the default order of queries generating posts from descending to ascending.
 
