@@ -1,12 +1,12 @@
 name: Update WordPress.org Readme
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - master
     paths:
       - 'README.txt'
-
 jobs:
   update:
     name: Push readme to WordPress.org SVN
