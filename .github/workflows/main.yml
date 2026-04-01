@@ -21,3 +21,5 @@ jobs:
         env:
           SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
           SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
+          ASSETS_DIR: none
+          IGNORE_OTHER_FILES: true
