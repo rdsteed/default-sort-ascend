@@ -1,0 +1,23 @@
+name: Update WordPress.org Readme
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - 'README.txt'
+
+jobs:
+  update:
+    name: Push readme to WordPress.org SVN
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Update WordPress.org
+        uses: 10up/action-wordpress-plugin-asset-update@stable
+        env:
+          SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
+          SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
